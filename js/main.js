@@ -23,3 +23,7 @@ const gradosFahrenheit = (gradosCelsius * 9/5) + 32;
 
 console.log("Celsius: ", gradosCelsius)
 console.log("Fahrenheit: ", gradosFahrenheit)
+
+// Ejercicio 4
+
+alert("Un mensaje");
