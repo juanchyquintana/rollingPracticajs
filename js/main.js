@@ -35,3 +35,8 @@ document.write("<h2>Hello World!</h2>");
 // Ejercicio 6
 
 console.log("El resultado es:", 3 + 5)
+
+// Ejercicio 7
+
+let nombreUsuario = prompt("Introduce tu nombre, por favor.")
+alert("Hola, " + nombreUsuario)
