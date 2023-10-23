@@ -27,3 +27,7 @@ console.log("Fahrenheit: ", gradosFahrenheit)
 // Ejercicio 4
 
 alert("Un mensaje");
+
+// Ejercicio 5
+
+document.write("<h2>Hello World!</h2>");
