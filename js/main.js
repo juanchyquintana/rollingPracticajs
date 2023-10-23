@@ -40,3 +40,9 @@ console.log("El resultado es:", 3 + 5)
 
 let nombreUsuario = prompt("Introduce tu nombre, por favor.")
 alert("Hola, " + nombreUsuario)
+
+// Ejercicio 8
+
+const num1 = parseInt(prompt("Ingresa el primer número, por favor."))
+const num2 = parseInt(prompt("Ingresa el segundo número, por favor."))
+document.write("<h2>",'El Resultado es: ', num1 + num2 ,"</h2>")
