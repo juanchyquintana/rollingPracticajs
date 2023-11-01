@@ -6,12 +6,20 @@ let saldo;
 //     document.write(`Su saldo disponible es ${dinero}`);
 // }else if(opcion === 2){
 //     const extraer = parseInt(prompt("¿Cuanto quiere extraer?"))
-//     saldo = dinero - extraer
-//     document.write(`Usted extrajo ${extraer}. Su saldo actual es ${saldo}`);
+//     if(extraer > 0) {
+//         saldo = dinero - extraer
+//         document.write(`Usted extrajo ${extraer}. Su saldo actual es ${saldo}`);
+//     } else {
+//         document.write('ingreso una opción invalida');
+//     }
 // }else if(opcion === 3){
 //     const ingreso = parseInt(prompt("¿Cuanto quiere ingresar?"))
-//     saldo = dinero + ingreso
-//     document.write(`Usted ingresó ${ingreso}. Su saldo actual es ${saldo}`);
+//     if(ingreso > 0){
+//         saldo = dinero + ingreso
+//         document.write(`Usted ingresó ${ingreso}. Su saldo actual es ${saldo}`);
+//     } else {
+//         document.write('ingreso una opción invalida');
+//     }
 // }else{
 //     document.write('ingreso una opción invalida');
 // }
@@ -22,13 +30,21 @@ switch (opcion) {
         break;
     case 2:
         const extraer = parseInt(prompt("¿Cuanto quiere extraer?"))
-        saldo = dinero - extraer
-        document.write(`Usted extrajo ${extraer}. Su saldo actual es ${saldo}`);
+        if(extraer > 0) {
+            saldo = dinero - extraer
+            document.write(`Usted extrajo ${extraer}. Su saldo actual es ${saldo}`);
+        } else {
+            document.write('ingreso una opción invalida');
+        }
         break;
     case 3:
         const ingreso = parseInt(prompt("¿Cuanto quiere ingresar?"))
-        saldo = dinero + ingreso
-        document.write(`Usted ingresó ${ingreso}. Su saldo actual es ${saldo}`);
+        if(ingreso > 0){
+            saldo = dinero + ingreso
+            document.write(`Usted ingresó ${ingreso}. Su saldo actual es ${saldo}`);
+        } else {
+            document.write('ingreso una opción invalida');
+        }
         break;
     case 4:
         document.write('ingreso una opción invalida');
