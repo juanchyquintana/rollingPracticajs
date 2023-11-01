@@ -10,6 +10,6 @@ do {
             alert(numero + " No es un numero");
         }
     }
-} while (numero != undefined);
+} while (confirm('Deseas Continuar?'));
 
 document.write(suma);
